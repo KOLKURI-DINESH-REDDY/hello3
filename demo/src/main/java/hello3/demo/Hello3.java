@@ -9,6 +9,11 @@ public class Hello3 {
     {
         return "hiiiiii";
     }
+    @GetMapping("hello")
+    public String hello()
+    {
+        return "hello";
+    }
     
 }
 
