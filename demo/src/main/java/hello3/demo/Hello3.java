@@ -14,6 +14,11 @@ public class Hello3 {
     {
         return "hello";
     }
+    @GetMapping("lo")
+    public String lo()
+    {
+        return "lo";
+    }
     
 }
 
